@@ -1,21 +1,52 @@
 .wrapper{
   display: flex;
 }
+
 /* サイドバー */
 .side-bar{
-  background-color: #253141;
   width: 300px;
   height: 100vh;
+  background-color: #253141;
 }
 .side-header{
   height: 100px;
   padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .rooms{
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
 }
+
+/* サイドヘッダー */
+.header-name a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+.room-create{
+  font-size: 10px;
+}
+.room-create a{
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
+/* サイドフッター */
+.room{
+  padding: 20px 0 40px;
+}
+.room-name a{
+  color: white;
+  text-decoration: none;
+}
+
 /* チャット */
 .chat{
   background-color: #ffffff;
